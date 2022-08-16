@@ -6,10 +6,12 @@ import router from './router'
 import 'styles/reset.css'
 import 'styles/border.css'
 import fastClick from 'fastclick'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'styles/iconfont.css'
-
 Vue.config.productionTip = false
 fastClick.attach(document.body)
+Vue.use(VueAwesomeSwiper)
+require('swiper/swiper.min.css')
 // 解决移动端300毫秒延长的问题。
 
 /* eslint-disable no-new */
